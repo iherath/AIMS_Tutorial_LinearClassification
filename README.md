@@ -65,6 +65,17 @@ Once Python is installed, you can install Jupyter Notebook using pip (Python's p
 
 ## Running the Tutorial Notebook
 
+### Download the Dataset
+Before running the notebook, you'll need to download the synthetic healthcare dataset:
+
+1. Visit [Synthea Synthetic Health Data Downloads](https://synthea.mitre.org/downloads)
+2. Download the "10k Sample Synthetic Patient Records, CSV Format"
+3. Extract the downloaded file - it will create a directory named `10k_synthea_covid19_csv` containing all the CSV files
+4. Move the extracted `10k_synthea_covid19_csv` directory into your project folder
+
+Note: This dataset contains synthetic (artificially generated) patient data created by the MITRE Corporation's Synthea tool. It's designed to simulate realistic but non-real patient health records for educational and development purposes. No real patient data is included.
+
+### Running the Notebook
 1. Open Terminal (macOS) or Command Prompt (Windows)
 2. Navigate to the project directory:
    ```bash
